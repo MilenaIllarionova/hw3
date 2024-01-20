@@ -1,6 +1,11 @@
 function greeting(name) {
-    console.log("Привет, " + name + "!");
+    console.log("Hello, " + name + "!");
 }
 
-var userName = prompt("Пожалуйста, введите свое имя:");
-greeting(userName);
+function getNameAndGreet() {
+    var userName = prompt("Please enter your name:");
+    greeting(userName);
+}
+
+getNameAndGreet();
+
